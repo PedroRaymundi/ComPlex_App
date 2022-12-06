@@ -1,0 +1,5 @@
+rodar no powershell/terminal
+python -m PyInstaller freeze_complex.spec
+
+Certifique-se de que todas as bibliotecas estão instaladas.
+Principalmente rasterio, pandas, numba e osgeo (utilizar a wheel na pasta "complex_app")

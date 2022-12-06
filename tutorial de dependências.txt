@@ -1,0 +1,16 @@
+É necessário possuir a versão do python 3.10 e ter o pip instalado para a execução do programa.
+Caso esteja com outra versão é recomendado instalar os pacotes equivalentes
+para a versão específica.
+A wheel do pacote gdal pode ser encontrada em: https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
+
+Antes de fazer a execução navegue ao diretório do complex_app.py e
+inicie lá o terminal/powershell
+
+Instalação dos pacotes:
+
+python -m pip install wheel
+python -m pip install -r requirements.txt
+
+execução do programa:
+
+python complex_app.py
